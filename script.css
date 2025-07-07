@@ -50,6 +50,14 @@ button{
     margin-top: 10px;
 }
 
+.remove-item{
+    background-color:#dc3545 ;
+}
+
+.remove-item:hover{
+        background-color:#810512 ;
+}
+
 .cart{
     background-color: #f9f9f9 ;
     margin-top: 20px;
@@ -61,10 +69,14 @@ button{
 .cart ul{
         list-style-type: none;
         padding: 0;
-}
+} 
 
 .cart ul li{
     margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
 }
 
 
